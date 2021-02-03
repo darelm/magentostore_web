@@ -8,24 +8,24 @@
 
 @font-face {
     font-family: poppinsMedium;
-    src: url('../assets/fonts/poppins.medium.ttf');
+    src: url('../font/poppins.medium.ttf');
 }
 
 @font-face {
     font-family: Lato;
-    src: url('../assets/fonts/Lato-Regular.ttf');
+    src: url('../font/Lato-Regular.ttf');
 }
 
 @font-face {
     font-family: RobotoLight;
     font-weight: bold;
-    src: url(../assets/fonts/Roboto-Light.ttf);
+    src: url(../font/Roboto-Light.ttf);
 }
 
 @font-face {
     font-family: RobotoItalict;
     font-weight: bold;
-    src: url(../assets/fonts/Roboto-Italic.ttf);
+    src: url(../font/Roboto-Italic.ttf);
 }
 
 .primary-title {
@@ -276,7 +276,7 @@
 #testimonials {
     padding-bottom: 8rem;
     position: relative;
-    background: url(../assets/imgs/testimonial-bg.png) no-repeat center;
+    background: url(../img/testimonial-bg.png) no-repeat center;
     background-size: cover;
 }
 
@@ -498,4 +498,20 @@
     #footer .info .row div:first-of-type {
         text-align: center;
     }
+}
+
+
+/* Customization */
+
+.menu{
+    max-width: 100%;
+}
+
+.carousel-item {
+    transition: transform .4s ease-in-out !important;
+}
+
+.pakcage-name{
+    font-weight: bold;
+    font-size: 20px;
 }
