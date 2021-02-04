@@ -66,6 +66,7 @@
     color: #2F2B2F;
     font-family: "Roboto Light", sans-serif;
     margin-bottom: 30px;
+    text-align: justify;
 }
 
 .paragraph.text-center {
@@ -514,4 +515,8 @@
 .pakcage-name{
     font-weight: bold;
     font-size: 20px;
+}
+
+.footer{
+    padding-top:0px !important;
 }
