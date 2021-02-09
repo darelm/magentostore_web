@@ -3,7 +3,7 @@
   src: url(web/font/kufi/DroidKufi-Regular.ttf);
 }
 
-body{
+body, h1{
 	font-family: droid_kofi !important;
 }
 
