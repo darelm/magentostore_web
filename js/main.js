@@ -18,3 +18,9 @@ $(function () {
         $("html, body").animate({scrollTop: 0}, 500);
     })
 });
+
+
+function getURL(urlstr)
+{
+    window.open(urlstr, '_blank');
+}
